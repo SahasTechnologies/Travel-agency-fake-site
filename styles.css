@@ -1,0 +1,137 @@
+body {
+    background-color: #effaff;
+}
+
+#heading {
+    font-family: "IBM Plex Sans";
+    text-align: center;
+    color: #035e8c;
+    font-weight: 700;
+    background-color: #91d8fb;
+    padding: 10px;
+    border-radius: 10px;
+    position: static;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background-color: #035e8c;
+    font-family: "IBM Plex Sans";
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    /* transition: text-decoration linear; couldn't get this to work */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#mainheading {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 100%;
+    width: 350px;
+    height: 350px;
+    transition: border-radius 0.5s ease-in-out;
+}
+
+img:hover {
+    border-radius: 10px;
+}
+
+
+figure {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    font-family: "IBM Plex Sans";
+    font-weight: 700;
+}
+
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.card figure img {
+    margin: 0;
+    display: inline-block;
+}
+
+.card figure {
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.card p {
+    font-family: "IBM Plex Sans";
+    font-size: 18px;
+    margin: 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.card button {
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
+    padding: 10px 24px;
+    background-color: #035e8c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #024a6e;
+}
+
+#footer {
+    background-color: #91d8fb;
+    color: #035e8c;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "IBM Plex Sans";
+    padding: 10px;
+    font-size: 20px;
+}
+
+#small {
+    font-family: "IBM Plex Sans";
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+}
